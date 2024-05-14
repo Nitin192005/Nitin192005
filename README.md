@@ -1,11 +1,17 @@
-# 💫 About Me:
+<h1 align="center">Hi 👋, I'm NITIN PANDEY</h1>
+<h3 align="center">🔭 I’m currently pursuing my B.Tech. degree in Computer Science @IIITDMJ</h3>
 
-🔭 I’m currently pursuing my B.Tech. degree in Computer Science [![@IIITDMJ](https://img.shields.io/badge/@IIITDMJ-8A2BE2)](https://iiitdmj.ac.in)<br>🤝 I’m looking for help with expanding my knowledge and skills in web development and software development.<br>🌱 I’m currently learning advanced techniques in DSA to enhance my problem solving skills.<br>⚡ Fun fact: When I'm not coding, you can find me binge-watching web series or exploring new ways to innovate in Web3
+- 📫 How to reach me **nitin2005p@gmail.com**
 
-## 🌐 Socials:
+- ⚡ Fun fact **When I'm not coding, you can find me binge-watching web series or exploring new ways to innovate in Web3**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nitin-pandey-54285b28b/)
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/nitin-pandey-54285b28b/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/nitin-pandey-54285b28b/" height="30" width="40" /></a>
+</p>
 
-# 💻 Tech Stack:
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
 
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CPP](https://img.shields.io/badge/cpp-%2300599C.svg?style=for-the-badge&logo=cplusplus&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white) ![Web3](https://img.shields.io/badge/Web3-f7df1e.svg?style=for-the-badge&logo=web3dotjs&logoColor=white) 
+
+
