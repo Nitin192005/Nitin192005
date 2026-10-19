@@ -10,14 +10,12 @@
 
 <a href="https://nitin192005.github.io/Nitin192005/#about"><img src="assets/seal-about.svg" width="112" alt="About" /></a><a href="https://nitin192005.github.io/Nitin192005/#projects"><img src="assets/seal-projects.svg" width="112" alt="Projects" /></a><a href="https://nitin192005.github.io/Nitin192005/#experience"><img src="assets/seal-experience.svg" width="112" alt="Experience" /></a><a href="https://nitin192005.github.io/Nitin192005/#achievements"><img src="assets/seal-awards.svg" width="112" alt="Awards" /></a><a href="https://nitin192005.github.io/Nitin192005/#contact"><img src="assets/seal-contact.svg" width="112" alt="Contact" /></a>
 
-<sub>🍁 Click a seal to open that room in the live castle</sub>
-
 <br/>
 
 <img src="assets/nameplate.svg" width="100%" alt="Nitin Pandey · Backend · AI · Product" />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=900&color=FF9EB5&center=true&vCenter=true&width=720&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;Three-time+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, NEC finalist, and solver of more than 600 DSA problems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=900&color=FF9EB5&center=true&vCenter=true&width=720&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;Three-time+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;700%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, NEC finalist, and solver of more than 700 DSA problems" />
 </a>
 
 <br/>
