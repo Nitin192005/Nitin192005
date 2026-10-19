@@ -42,7 +42,6 @@ building:    FastRAG, hybrid retrieval, reranking, RAG evaluation
 reach_me:    nitin2005@gmail.com
 ```
 
-> [!TIP]
 > I like building things at the intersection of **AI, backend systems and business strategy**, and shipping what real users touch.
 
 </details>
