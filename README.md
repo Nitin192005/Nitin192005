@@ -1,9 +1,5 @@
 <div align="center">
 
-<a href="https://nitin192005.github.io/Nitin192005/">
-  <img src="assets/hero.webp" width="100%" alt="Momiji Castle: an animated autumn dusk scene with maple leaves drifting past a samurai castle. Click to enter the live version." />
-</a>
-
 <img src="assets/welcome.svg" width="100%" alt="Welcome, traveller. This profile is a castle: press Enter the castle, tap a seal to open a room, sweep the cursor through the leaves." />
 
 <a href="https://nitin192005.github.io/Nitin192005/">
