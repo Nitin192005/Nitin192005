@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <div align="center">
 
 <img src="assets/welcome.svg" width="100%" alt="Welcome, traveller. This profile is a castle: press Enter the castle, tap a seal to open a room, sweep the cursor through the leaves." />
@@ -9,6 +11,11 @@
 <br/>
 
 <a href="https://nitin192005.github.io/Nitin192005/#about"><img src="assets/seal-about.svg" width="112" alt="About" /></a><a href="https://nitin192005.github.io/Nitin192005/#projects"><img src="assets/seal-projects.svg" width="112" alt="Projects" /></a><a href="https://nitin192005.github.io/Nitin192005/#experience"><img src="assets/seal-experience.svg" width="112" alt="Experience" /></a><a href="https://nitin192005.github.io/Nitin192005/#achievements"><img src="assets/seal-awards.svg" width="112" alt="Awards" /></a><a href="https://nitin192005.github.io/Nitin192005/#contact"><img src="assets/seal-contact.svg" width="112" alt="Contact" /></a>
+
+<br/>
+
+<sub><b>On this page:</b> <a href="#about">About</a> · <a href="#tech">Tech</a> · <a href="#projects">Projects</a> · <a href="#experience">Experience</a> · <a href="#achievements">Achievements</a> · <a href="#activity">Activity</a> · <a href="#journey">Journey</a> · <a href="#contact">Contact</a></sub><br/>
+<sub>Tip: every floor below is collapsible. Click a banner to open or close it.</sub>
 
 <br/>
 
@@ -30,6 +37,7 @@
 
 <!-- ═══════════════ FLOORS: click a header to open / close ═══════════════ -->
 
+<a id="about"></a>
 <details open>
 <summary><img src="assets/floor-about.svg" width="100%" alt="About me" /></summary>
 <br/>
@@ -44,8 +52,11 @@ reach_me:    nitin2005@gmail.com
 
 > I like building things at the intersection of **AI, backend systems and business strategy**, and shipping what real users touch.
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="tech"></a>
 <details open>
 <summary><img src="assets/floor-tech.svg" width="100%" alt="Tech stack" /></summary>
 <br/>
@@ -78,8 +89,11 @@ reach_me:    nitin2005@gmail.com
 
 </details>
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="projects"></a>
 <details open>
 <summary><img src="assets/floor-projects.svg" width="100%" alt="Featured projects" /></summary>
 <br/>
@@ -128,8 +142,11 @@ flowchart LR
 
 </details>
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="experience"></a>
 <details open>
 <summary><img src="assets/floor-experience.svg" width="100%" alt="Experience" /></summary>
 <br/>
@@ -156,8 +173,11 @@ flowchart LR
 
 </details>
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="achievements"></a>
 <details>
 <summary><img src="assets/floor-achievements.svg" width="100%" alt="Achievements" /></summary>
 <br/>
@@ -180,8 +200,11 @@ flowchart LR
 
 </details>
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="activity"></a>
 <details>
 <summary><img src="assets/floor-stats.svg" width="100%" alt="Contribution activity" /></summary>
 <br/>
@@ -198,8 +221,11 @@ flowchart LR
 
 </div>
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
+<a id="journey"></a>
 <details>
 <summary><img src="assets/floor-journey.svg" width="100%" alt="Developer journey" /></summary>
 <br/>
@@ -254,10 +280,13 @@ mindmap
       B.Tech CSE @ IIITDM Jabalpur
 ```
 
+<div align="right"><sub><a href="#top">↑ Back to top</a></sub></div>
+
 </details>
 
 <br/>
 
+<a id="contact"></a>
 <div align="center">
 
 <h2>📬 Let's build something together</h2>

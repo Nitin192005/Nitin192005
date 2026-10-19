@@ -2,6 +2,10 @@
 <title>Nitin Pandey · Momiji Castle</title>
 <meta name="description" content="Nitin Pandey: backend developer, AI engineer and product thinker. An interactive portfolio set in an autumn-dusk castle.">
 <meta name="claude:viewport-fit-sides" content="cover">
+<meta name="theme-color" content="#0d0820">
+<meta property="og:title" content="Nitin Pandey · Momiji Castle">
+<meta property="og:description" content="Backend · AI · Product. Explore the castle: tap a room to open About, Projects, Experience, Achievements or Contact.">
+<meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@700;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap">
@@ -108,13 +112,105 @@ body.open .ui{padding-right:calc(min(540px,100%) + 16px)}
 @media (max-width:520px){.nav button{width:52px}.nav .s{width:38px;height:38px;font-size:20px}.nav .l{font-size:8.5px;letter-spacing:.1em}}
 @media (prefers-reduced-motion:reduce){.sheet,.sheet.on{transition:none}.sheet section.on{animation:none}}
 </style>
+
+<style>
+/* ---- navigation layer ---- */
+:root{--navh:calc(64px + env(safe-area-inset-bottom,0px))}
+/* top bar (desktop / tablet) */
+#nav{top:0;left:0;right:0;max-width:none;box-sizing:border-box;flex-wrap:nowrap;align-items:center;gap:8px;overflow-x:auto;scrollbar-width:none;
+  padding:calc(10px + env(safe-area-inset-top,0px)) 190px 18px max(16px,env(safe-area-inset-left,0px));
+  background:linear-gradient(to bottom,rgba(10,6,22,.82),rgba(10,6,22,0))}
+#nav::-webkit-scrollbar{display:none}
+#nav button{flex-direction:row;width:auto;gap:9px;padding:6px 12px 6px 6px;border:1px solid rgba(246,233,226,.22);border-radius:2px;background:rgba(13,8,32,.55);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);white-space:nowrap;transition:border-color .2s,background .2s}
+#nav button:hover{border-color:var(--blush);background:rgba(39,17,58,.75)}
+#nav .s{width:28px;height:28px;font-size:16px}
+#nav .l{font-size:11px;letter-spacing:.14em;color:var(--paper)}
+#nav .k{font-size:10px;line-height:1;padding:3px 5px;border:1px solid rgba(246,233,226,.35);border-radius:3px;color:rgba(246,233,226,.7);font-family:var(--font-ui)}
+#nav button[aria-current=true]{border-color:var(--blush);background:rgba(214,38,79,.28)}
+#nav .brand{gap:10px;padding:6px 14px 6px 8px;border-color:transparent;background:transparent;margin-right:6px}
+#nav .brand:hover{background:rgba(39,17,58,.6)}
+#nav .brand .j{font-family:var(--font-display);font-size:18px;color:var(--blush);letter-spacing:.2em}
+#nav .brand b{font-family:var(--font-display);font-size:15px;letter-spacing:.12em;font-weight:800}
+body.open #nav .brand b{opacity:.85}
+
+/* clickable castle rooms */
+#hots{position:fixed;inset:0;z-index:3;pointer-events:none}
+.hot{all:unset;box-sizing:border-box;position:absolute;width:34px;height:34px;margin:-17px 0 0 -17px;display:grid;place-items:center;border-radius:50%;cursor:pointer;pointer-events:auto;
+  background:rgba(200,55,45,.92);color:var(--paper);font-family:var(--font-display);font-weight:800;font-size:17px;box-shadow:0 0 0 1px rgba(255,210,200,.55),0 4px 14px rgba(0,0,0,.5);transition:transform .15s,background .15s}
+.hot::before{content:"";position:absolute;inset:-1px;border-radius:50%;border:2px solid var(--blush);animation:pulse 2.6s ease-out infinite;pointer-events:none}
+.hot:nth-child(2)::before{animation-delay:.5s}.hot:nth-child(3)::before{animation-delay:1s}.hot:nth-child(4)::before{animation-delay:1.5s}.hot:nth-child(5)::before{animation-delay:2s}
+@keyframes pulse{0%{transform:scale(1);opacity:.9}100%{transform:scale(2.3);opacity:0}}
+.hot:hover,.hot:focus-visible{transform:scale(1.14);background:#e24a3d}
+.hot:focus-visible{outline:2px solid var(--paper);outline-offset:3px}
+.hot[aria-current=true]{background:var(--paper);color:var(--vermilion);box-shadow:0 0 0 2px var(--blush),0 0 22px rgba(255,158,181,.7)}
+.hot[aria-current=true]::before{animation:none;opacity:0}
+.hot .t{position:absolute;left:calc(100% + 10px);top:50%;transform:translateY(-50%);padding:4px 9px;border-radius:2px;white-space:nowrap;font:500 11px var(--font-ui);letter-spacing:.16em;text-transform:uppercase;color:var(--paper);
+  background:rgba(13,8,32,.82);border:1px solid rgba(255,158,181,.45);opacity:0;pointer-events:none;transition:opacity .2s;animation:lbl 14s forwards}
+@keyframes lbl{0%,80%{opacity:1}100%{opacity:0}}
+.hot:hover .t,.hot:focus-visible .t{animation:none;opacity:1}
+
+/* tour button + key hints */
+.tour{all:unset;box-sizing:border-box;display:inline-flex;align-items:center;gap:10px;margin-top:14px;padding:11px 18px;cursor:pointer;pointer-events:auto;background:var(--vermilion);color:var(--paper);
+  font:500 12px var(--font-ui);letter-spacing:.2em;text-transform:uppercase;border-radius:2px;box-shadow:0 0 0 1px rgba(255,200,190,.4),0 8px 22px rgba(0,0,0,.5);transition:transform .15s,background .15s}
+.tour:hover{background:#dc4a3e;transform:translateY(-2px)}.tour:focus-visible{outline:2px solid var(--blush);outline-offset:3px}
+.tour span{transition:transform .2s}.tour:hover span{transform:translateX(4px)}
+.keys{margin:12px 0 0;font-size:11px;letter-spacing:.08em;color:rgba(246,233,226,.6)}
+.keys kbd{font:500 10px var(--font-ui);padding:2px 6px;margin:0 2px;border:1px solid rgba(246,233,226,.4);border-radius:3px;color:var(--paper)}
+
+/* sheet pager */
+.sheet .progress{height:3px;background:rgba(39,17,58,.12);flex:none}
+.sheet .progress i{display:block;height:100%;width:0;background:var(--crimson);transition:width .4s}
+.pager{flex:none;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));border-top:1px solid rgba(39,17,58,.15);background:rgba(246,233,226,.98)}
+.pg{all:unset;box-sizing:border-box;display:flex;align-items:center;gap:10px;min-width:0;max-width:40%;padding:8px 12px;cursor:pointer;border-radius:2px;color:#27113a}
+.pg.r{text-align:right;flex-direction:row-reverse}
+.pg .a{font-size:22px;line-height:1;color:var(--vermilion)}
+.pg small{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#7a2f3f}
+.pg b{display:block;font-family:var(--font-display);font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pg:hover{background:rgba(39,17,58,.07)}.pg:focus-visible{outline:2px solid #27113a;outline-offset:2px}
+.pg[disabled]{opacity:.25;pointer-events:none}
+.dots{display:flex;gap:4px}
+.dots button{all:unset;cursor:pointer;width:26px;height:26px;display:grid;place-items:center}
+.dots button::after{content:"";width:9px;height:9px;border-radius:50%;background:rgba(39,17,58,.25);transition:background .2s,transform .2s}
+.dots button:hover::after{background:var(--crimson)}
+.dots button[aria-current=true]::after{background:var(--crimson);transform:scale(1.4)}
+.dots button:focus-visible{outline:2px solid #27113a;outline-offset:1px;border-radius:50%}
+.copy{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;margin:4px 8px 8px 0;padding:10px 16px;border:1px solid #27113a;color:#27113a;border-radius:2px;font-size:13px;letter-spacing:.08em}
+.copy:hover{background:#27113a;color:#ffd9e2}.copy:focus-visible{outline:2px solid var(--crimson);outline-offset:2px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translate(-50%,20px);z-index:20;padding:10px 16px;background:#27113a;color:#ffd9e2;border-radius:2px;font-size:13px;letter-spacing:.06em;opacity:0;pointer-events:none;transition:opacity .25s,transform .25s}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+
+@media (max-width:900px){.keys{display:none}#nav .k{display:none}#nav .brand b{display:none}body.open #hots{opacity:0;visibility:hidden}}
+/* bottom tab bar (phones) */
+@media (max-width:760px){
+  #nav{top:auto;bottom:0;right:0;z-index:8;justify-content:space-around;gap:0;overflow:visible;box-sizing:border-box;height:var(--navh);
+    padding:6px 6px env(safe-area-inset-bottom,0px);background:rgba(13,8,32,.94);border-top:1px solid rgba(255,158,181,.25);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+  #nav button{flex:1 1 0;flex-direction:column;justify-content:center;gap:4px;width:auto;padding:4px 0;border:0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none}
+  #nav button:hover{background:transparent}
+  #nav .brand{display:none}
+  #nav .s{width:32px;height:32px;font-size:17px}
+  #nav .l{font-size:9px;letter-spacing:.08em}
+  #nav button[aria-current=true]{background:transparent}
+  .ui{padding-bottom:calc(var(--navh) + 14px)}
+  .sheet{bottom:var(--navh);height:min(74%,calc(100% - var(--navh) - 60px));padding-bottom:0}
+  .pager{padding-bottom:10px}
+  .pg{max-width:36%}.pg b{font-size:13px}
+  .dots button{width:20px}
+  .tog{top:calc(10px + env(safe-area-inset-top,0px))}
+  .hot{width:30px;height:30px;margin:-15px 0 0 -15px;font-size:15px}
+  .hot .t{display:none}
+  .toast{bottom:calc(var(--navh) + 14px)}
+}
+@media (prefers-reduced-motion:reduce){.hot::before{animation:none;opacity:0}.hot .t{animation:none}.sheet .progress i{transition:none}.tour,.tour span{transition:none}}
+</style>
 <canvas id="scene" role="img" aria-label="Interactive portfolio background. Animated dusk scene: a white samurai castle with curved dark roofs beside a still pond, a vermilion torii gate in the water, a pale moon, and crimson and pink maple leaves drifting down."></canvas>
 <div class="ui" id="ui">
   <div class="title">
     <p class="kanji" lang="ja">紅葉の城</p>
     <h1>Nitin Pandey</h1>
     <p class="sub">Backend · AI · Product</p>
-    <p class="hint">Sweep the pointer through the leaves to stir the wind. Click for a gust. Tap a seal above to explore.</p>
+    <p class="hint">Tap a glowing seal on the castle, or use the menu, to open a room. Sweep the pointer through the leaves to stir the wind.</p>
+    <button class="tour" id="tour" type="button">Start the tour <span aria-hidden="true">→</span></button>
+    <p class="keys"><kbd>1</kbd>–<kbd>5</kbd> rooms · <kbd>←</kbd> <kbd>→</kbd> move · <kbd>Esc</kbd> back to castle</p>
   </div>
   <div class="panel" id="panel">
     <div class="ctl"><label for="dens">Leaves <output id="densO">130</output></label><input id="dens" type="range" min="20" max="320" value="130"></div>
@@ -123,7 +219,9 @@ body.open .ui{padding-right:calc(min(540px,100%) + 16px)}
   </div>
 </div>
 <div class="scrim" id="scrim"></div>
+<div id="hots" role="group" aria-label="Castle rooms"></div>
 <nav class="nav" id="nav" aria-label="Portfolio sections">
+  <button type="button" class="brand" data-home aria-label="Back to the castle (home)"><span class="j" lang="ja">紅葉</span><b>Nitin Pandey</b></button>
   <button type="button" data-open="about"><span class="s" lang="ja">私</span><span class="l">About</span></button>
   <button type="button" data-open="projects"><span class="s" lang="ja">作</span><span class="l">Projects</span></button>
   <button type="button" data-open="experience"><span class="s" lang="ja">道</span><span class="l">Experience</span></button>
@@ -136,6 +234,7 @@ body.open .ui{padding-right:calc(min(540px,100%) + 16px)}
     <div><div class="tag" id="sheetTag">Nitin Pandey</div><h2 id="sheetTitle">About</h2></div>
     <button class="x" id="sheetClose" type="button" aria-label="Close panel">×</button>
   </header>
+  <div class="progress" aria-hidden="true"><i id="prog"></i></div>
   <div class="body" id="sheetBody">
 
     <section data-sec="about" data-title="About me" data-tag="私 · who">
@@ -207,14 +306,21 @@ body.open .ui{padding-right:calc(min(540px,100%) + 16px)}
       <p>Have an idea, a role, or a problem worth solving? I'd like to hear about it.</p>
       <p>
         <a class="cta alt" href="mailto:nitin2005@gmail.com">✉ nitin2005@gmail.com</a>
+        <button class="copy" type="button" id="copyMail">Copy email</button>
         <a class="cta" href="https://linkedin.com/in/nitin-pandey-dev" target="_blank" rel="noopener">LinkedIn →</a>
         <a class="cta" href="https://github.com/Nitin192005" target="_blank" rel="noopener">GitHub →</a>
       </p>
-      <p style="margin-top:18px;color:#7a2f3f;font-size:13px">Tip: close this panel and click anywhere on the scene to send a gust of wind.</p>
+      <p style="margin-top:18px;color:#7a2f3f;font-size:13px">Tip: press Esc (or the × button) to return to the castle, then click anywhere on the scene to send a gust of wind.</p>
     </section>
 
   </div>
+  <footer class="pager" id="pager" aria-label="Room navigation">
+    <button type="button" class="pg" id="pgPrev"><span class="a" aria-hidden="true">‹</span><span><small>Previous</small><b id="pgPrevL"></b></span></button>
+    <div class="dots" id="dots"></div>
+    <button type="button" class="pg r" id="pgNext"><span class="a" aria-hidden="true">›</span><span><small id="pgNextS">Next</small><b id="pgNextL"></b></span></button>
+  </footer>
 </aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
 
 <button class="tog" id="tog" type="button" aria-pressed="false">Hide controls</button>
 
@@ -404,7 +510,15 @@ function drawCastle(c){
   // tiers
   var y=y0-80*s;
   var ts=[{hw:128,h:68,rw:352,rh:46,win:4,gable:true},{hw:96,h:58,rw:278,rh:42,win:3},{hw:66,h:50,rw:206,rh:38,win:2,gable:true},{hw:42,h:38,rw:146,rh:34,win:1,top:true}];
-  ts.forEach(function(t){y=tier(c,cx,y,t,s);});
+  var bands=[];
+  ts.forEach(function(t){var yb=y;y=tier(c,cx,y,t,s);bands.push({y:yb-(t.h+t.rh)*0.5*s,hw:t.rw*s/2});});
+  window.__hot=[
+    {id:'about',x:cx,y:bands[3].y},
+    {id:'projects',x:cx+bands[2].hw*0.45,y:bands[2].y},
+    {id:'experience',x:cx-bands[1].hw*0.45,y:bands[1].y},
+    {id:'achievements',x:cx+bands[0].hw*0.45,y:bands[0].y},
+    {id:'contact',x:cx,y:y0-14*s}
+  ];
   // lanterns
   toro(c,cx-170*s,y0,s);toro(c,cx+170*s,y0,s);toro(c,cx-345*s,y0,s*0.9);toro(c,cx+345*s,y0,s*0.9);
   // static window glow so the reflection carries light
@@ -478,6 +592,7 @@ function build(){
   var c=mk(W,H);toriiC=c[0];drawTorii(c[1]);
   var d=mk(W,H);branchC=d[0];drawBranches(d[1]);
   buildMist();
+  if(window.__placeHot)window.__placeHot();
   vigG=ctx.createRadialGradient(W/2,H*0.55,Math.min(W,H)*0.35,W/2,H*0.55,Math.max(W,H)*0.78);
   vigG.addColorStop(0,'rgba(8,4,16,0)');vigG.addColorStop(1,'rgba(8,4,16,.6)');
   var r=rngf(9),i;
@@ -676,36 +791,126 @@ requestAnimationFrame(frame);
 var sheet=document.getElementById('sheet'),body=document.getElementById('sheetBody'),
     secs=[].slice.call(sheet.querySelectorAll('[data-sec]')),
     btns=[].slice.call(document.querySelectorAll('#nav [data-open]')),
+    homeB=document.querySelector('#nav [data-home]'),
     closeB=document.getElementById('sheetClose'),
     tTitle=document.getElementById('sheetTitle'),tTag=document.getElementById('sheetTag'),
-    cur=null,opener=null;
+    prog=document.getElementById('prog'),pgPrev=document.getElementById('pgPrev'),pgNext=document.getElementById('pgNext'),
+    pgPrevL=document.getElementById('pgPrevL'),pgNextL=document.getElementById('pgNextL'),pgNextS=document.getElementById('pgNextS'),
+    dotsEl=document.getElementById('dots'),hotsEl=document.getElementById('hots'),toast=document.getElementById('toast'),
+    BASE='Nitin Pandey · Momiji Castle',cur=null,opener=null,toastT=0;
+var order=btns.map(function(b){return b.getAttribute('data-open');});
+var names={};btns.forEach(function(b){names[b.getAttribute('data-open')]=b.querySelector('.l').textContent;});
+var kanji={};btns.forEach(function(b){kanji[b.getAttribute('data-open')]=b.querySelector('.s').textContent;});
+
 function find(id){for(var i=0;i<secs.length;i++)if(secs[i].getAttribute('data-sec')===id)return secs[i];return null;}
 function gust(){var g=document.getElementById('gust');if(g)g.click();}
 function setHash(h){try{history.replaceState(null,'',h?'#'+h:location.pathname+location.search);}catch(e){}}
-function open(id,src){
-  var s=find(id);if(!s)return;
-  if(cur===id){close();return;}
-  secs.forEach(function(x){x.classList.toggle('on',x===s);});
+function say(msg){toast.textContent=msg;toast.classList.add('on');clearTimeout(toastT);toastT=setTimeout(function(){toast.classList.remove('on');},2200);}
+
+/* keyboard hint numbers on the top bar */
+btns.forEach(function(b,i){var k=document.createElement('span');k.className='k';k.setAttribute('aria-hidden','true');k.textContent=i+1;b.appendChild(k);});
+
+/* pager dots */
+order.forEach(function(id,i){
+  var d=document.createElement('button');d.type='button';d.setAttribute('aria-label','Open '+names[id]+' ('+(i+1)+' of '+order.length+')');
+  d.addEventListener('click',function(){open(id,null,true);});dotsEl.appendChild(d);
+});
+
+/* castle hotspots (positions come from the canvas drawing code) */
+var hotBtns=[];
+function placeHot(){
+  var H=window.__hot||[];if(!hotsEl||!H.length)return;
+  if(!hotBtns.length){
+    H.forEach(function(h){
+      var b=document.createElement('button');b.type='button';b.className='hot';b.setAttribute('data-open',h.id);
+      b.setAttribute('aria-label','Open '+names[h.id]+' room');
+      var k=document.createElement('span');k.setAttribute('aria-hidden','true');k.lang='ja';k.textContent=kanji[h.id];
+      var t=document.createElement('span');t.className='t';t.setAttribute('aria-hidden','true');t.textContent=names[h.id];
+      b.appendChild(k);b.appendChild(t);
+      b.addEventListener('click',function(){open(h.id,b);});
+      hotsEl.appendChild(b);hotBtns.push(b);
+    });
+  }
+  H.forEach(function(h,i){hotBtns[i].style.left=h.x+'px';hotBtns[i].style.top=h.y+'px';});
+}
+window.__placeHot=placeHot;placeHot();
+
+function mark(id){
   btns.forEach(function(b){b.setAttribute('aria-current',b.getAttribute('data-open')===id?'true':'false');});
-  tTitle.textContent=s.getAttribute('data-title');tTag.textContent=s.getAttribute('data-tag');
+  hotBtns.forEach(function(b){b.setAttribute('aria-current',b.getAttribute('data-open')===id?'true':'false');});
+  [].forEach.call(dotsEl.children,function(d,i){d.setAttribute('aria-current',order[i]===id?'true':'false');});
+}
+function pager(id){
+  var i=order.indexOf(id),n=order.length;
+  prog.style.width=((i+1)/n*100)+'%';
+  pgPrev.disabled=i<=0;pgPrevL.textContent=i>0?names[order[i-1]]:'';
+  if(i<n-1){pgNextS.textContent='Next';pgNextL.textContent=names[order[i+1]];}
+  else{pgNextS.textContent='Finish';pgNextL.textContent='Back to castle';}
+}
+function open(id,src,keep){
+  var s=find(id);if(!s)return;
+  if(cur===id&&!keep){close();return;}
+  if(cur===id)return;
+  secs.forEach(function(x){x.classList.toggle('on',x===s);});
+  mark(id);pager(id);
+  tTitle.textContent=s.getAttribute('data-title');
+  tTag.textContent=s.getAttribute('data-tag')+'  ·  '+(order.indexOf(id)+1)+' / '+order.length;
   body.scrollTop=0;
   var wasOpen=!!cur;cur=id;
   sheet.classList.add('on');sheet.setAttribute('aria-hidden','false');document.body.classList.add('open');
-  if(src){opener=src;}
+  if(src)opener=src;
+  document.title=names[id]+' · '+BASE;
   setHash(id);gust();
   if(!wasOpen)setTimeout(function(){closeB.focus({preventScroll:true});},60);
 }
 function close(){
   if(!cur)return;
   cur=null;sheet.classList.remove('on');sheet.setAttribute('aria-hidden','true');document.body.classList.remove('open');
-  btns.forEach(function(b){b.setAttribute('aria-current','false');});
-  setHash('');
+  mark(null);document.title=BASE;setHash('');
   if(opener){try{opener.focus({preventScroll:true});}catch(e){}}
 }
+function step(d){
+  var i=cur?order.indexOf(cur):-1,n=i+d;
+  if(n<0)return;
+  if(n>=order.length){close();return;}
+  open(order[n],null,true);
+}
+
 btns.forEach(function(b){b.addEventListener('click',function(){open(b.getAttribute('data-open'),b);});});
+if(homeB)homeB.addEventListener('click',close);
 closeB.addEventListener('click',close);
-document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});
-function fromHash(){var h=(location.hash||'').replace('#','');if(h&&find(h)){if(cur!==h)open(h,null);}else if(!h&&cur){close();}}
+pgPrev.addEventListener('click',function(){step(-1);});
+pgNext.addEventListener('click',function(){step(1);});
+document.getElementById('tour').addEventListener('click',function(e){open(order[0],e.currentTarget,true);});
+var cm=document.getElementById('copyMail');
+if(cm)cm.addEventListener('click',function(){
+  var m='nitin2005@gmail.com';
+  function ok(){say('Email copied: '+m);}
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(m).then(ok,function(){say(m);});}else{say(m);}
+});
+
+/* keyboard */
+document.addEventListener('keydown',function(e){
+  if(e.altKey||e.ctrlKey||e.metaKey)return;
+  var tg=e.target&&e.target.tagName;if(tg==='INPUT'||tg==='TEXTAREA'||tg==='SELECT')return;
+  if(e.key==='Escape'){close();return;}
+  if(/^[1-9]$/.test(e.key)){var id=order[+e.key-1];if(id)open(id,null,true);return;}
+  if(e.key==='ArrowRight'&&cur){e.preventDefault();step(1);}
+  else if(e.key==='ArrowLeft'&&cur){e.preventDefault();step(-1);}
+  else if(e.key==='ArrowRight'||e.key==='ArrowLeft'){if(tg!=='BUTTON'&&tg!=='A')open(order[e.key==='ArrowRight'?0:order.length-1],null,true);}
+  else if(e.key==='h'||e.key==='H'){close();}
+});
+
+/* swipe left / right on the panel to move between rooms */
+var tx=0,ty=0,tt=0;
+sheet.addEventListener('touchstart',function(e){var t=e.changedTouches[0];tx=t.clientX;ty=t.clientY;tt=Date.now();},{passive:true});
+sheet.addEventListener('touchend',function(e){
+  var t=e.changedTouches[0],dx=t.clientX-tx,dy=t.clientY-ty;
+  if(Date.now()-tt<700&&Math.abs(dx)>70&&Math.abs(dy)<50)step(dx<0?1:-1);
+},{passive:true});
+
+/* deep links and back/forward */
+function fromHash(){var h=(location.hash||'').replace('#','');if(h&&find(h)){if(cur!==h)open(h,null,true);}else if(!h&&cur){close();}}
 window.addEventListener('hashchange',fromHash);
 setTimeout(fromHash,400);
 })();
