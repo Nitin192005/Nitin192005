@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="60" viewBox="0 0 420 60" role="img" aria-label="Send a gust of wind. Click to toggle.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#27113a"/><stop offset="1" stop-color="#0d0820"/></linearGradient></defs>
+<rect x=".5" y=".5" width="419" height="59" rx="8" fill="url(#bg)" stroke="#3a1d52"/>
+<rect x="10" y="10" width="40" height="40" rx="2" fill="#c8372d"/>
+<path d="M20.5 19.1V26.0C20.5 31.2 20.3 36.9 17.7 41.5L18.0 41.7C23.2 37.4 23.5 30.9 23.5 26.0V23.8L23.5 23.9C25.1 24.0 26.9 23.9 28.5 23.8V26.5H27.0L24.5 25.5V34.4H24.9C25.8 34.4 26.9 33.9 26.9 33.7V32.6H28.5V37.0C25.8 37.2 23.6 37.3 22.3 37.3L23.8 40.6C24.1 40.5 24.4 40.3 24.6 40.0C28.6 39.0 31.6 38.2 33.8 37.5C34.1 38.4 34.3 39.2 34.3 40.0C36.8 42.2 39.4 37.0 32.5 34.3L32.2 34.5C32.7 35.2 33.1 36.0 33.5 36.8L31.1 36.9V32.6H32.8V33.7H33.2C34.0 33.7 35.2 33.3 35.2 33.1V27.5C35.6 27.4 35.9 27.2 36.0 27.1L33.7 25.3L32.6 26.5H31.1V23.6C32.4 23.4 33.6 23.3 34.6 23.1C35.3 23.4 35.9 23.4 36.2 23.2L33.4 20.4C31.2 21.5 27.0 22.9 23.5 23.6V19.8H36.3C36.2 27.6 36.2 36.6 38.8 40.0C39.6 41.1 40.8 42.0 42.0 41.3C42.5 40.9 42.5 39.8 42.0 38.2L42.3 33.4L42.0 33.4C41.8 34.4 41.5 35.4 41.2 36.3C41.0 36.7 40.9 36.8 40.7 36.5C39.1 34.5 39.0 25.5 39.4 20.4C40.0 20.2 40.4 20.1 40.5 19.9L37.6 17.4L36.0 19.1H24.0L20.5 17.7ZM26.9 31.9V27.2H28.5V31.9ZM32.8 31.9H31.1V27.2H32.8Z" fill="#f6e9e2"/>
+<g stroke="#ff9eb5" stroke-width="1.6" stroke-linecap="round" fill="none" opacity=".8">
+<path d="M340,22 h38 q8,0 8,-6"><animate attributeName="stroke-dasharray" values="0 60;60 0;0 60" dur="3s" repeatCount="indefinite"/></path>
+<path d="M340,31 h52 q8,0 8,6"><animate attributeName="stroke-dasharray" values="0 70;70 0;0 70" dur="3s" begin=".4s" repeatCount="indefinite"/></path>
+<path d="M340,40 h30"><animate attributeName="stroke-dasharray" values="0 40;40 0;0 40" dur="3s" begin=".8s" repeatCount="indefinite"/></path></g>
+<text x="64" y="27" font-family="'Hiragino Mincho ProN','Yu Mincho','Noto Serif JP',Georgia,'Times New Roman',serif" font-weight="700" font-size="16" letter-spacing="3" fill="#f6e9e2">SEND A GUST OF WIND</text>
+<text x="64" y="44" font-family="'Fira Code','SF Mono',Consolas,'DejaVu Sans Mono',monospace" font-size="10.5" letter-spacing="1.6" fill="#ff9eb5">click to toggle</text>
+</svg>

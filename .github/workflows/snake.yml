@@ -16,8 +16,8 @@ jobs:
         with:
           github_user_name: Nitin192005
           outputs: |
-            dist/github-snake.svg?color_snake=%23ff9eb5&color_dots=%230d0820,%2327113a,%236c244f,%23d6264f,%23ff9eb5
-            dist/github-snake-dark.svg?color_snake=%23ff9eb5&color_dots=%230d0820,%2327113a,%236c244f,%23d6264f,%23ff9eb5
+            dist/github-snake.svg?color_snake=%23ff9eb5&color_dots=%23efe6ea,%23ffd0dc,%23ff9eb5,%23e5477a,%23b8113a
+            dist/github-snake-dark.svg?color_snake=%23ff9eb5&color_dots=%231a1230,%23642445,%23a02a58,%23d6264f,%23ff5c7a
 
       - uses: peaceiris/actions-gh-pages@v4
         with:

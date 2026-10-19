@@ -1,10 +1,33 @@
-<!-- MOMIJI AUTUMN PROFILE -->
-<img width="100%" src="assets/momiji-banner.svg" alt="Animated Momiji Castle beneath an autumn moon, with falling maple leaves and Nitin Pandey's name" />
-
 <div align="center">
 
+<a href="https://nitin192005.github.io/Nitin192005/">
+  <img src="assets/hero.webp" width="100%" alt="Momiji Castle: an animated autumn dusk scene with maple leaves drifting past a samurai castle. Click to enter the live version." />
+</a>
+
+<a href="https://nitin192005.github.io/Nitin192005/">
+  <img src="assets/enter.svg" width="440" alt="Enter the castle: the live, interactive version of this profile" />
+</a>
+
+<br/>
+
+<a href="https://nitin192005.github.io/Nitin192005/#about"><img src="assets/seal-about.svg" width="112" alt="About" /></a><a href="https://nitin192005.github.io/Nitin192005/#projects"><img src="assets/seal-projects.svg" width="112" alt="Projects" /></a><a href="https://nitin192005.github.io/Nitin192005/#experience"><img src="assets/seal-experience.svg" width="112" alt="Experience" /></a><a href="https://nitin192005.github.io/Nitin192005/#achievements"><img src="assets/seal-awards.svg" width="112" alt="Awards" /></a><a href="https://nitin192005.github.io/Nitin192005/#contact"><img src="assets/seal-contact.svg" width="112" alt="Contact" /></a>
+
+<sub>🍁 Click a seal to open that room in the live castle &nbsp;·&nbsp; or send a gust right here 👇</sub>
+
+<details>
+<summary><img src="assets/gust-button.svg" width="420" alt="Send a gust of wind. Click to toggle." /></summary>
+<br/>
+<img src="assets/gust.webp" width="100%" alt="The same castle scene during a gust of wind, with hundreds of maple leaves swirling past." />
+<br/>
+<sub><i>Click the button again to let the wind settle.</i></sub>
+</details>
+
+<br/>
+
+<img src="assets/nameplate.svg" width="100%" alt="Nitin Pandey · Backend · AI · Product" />
+
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=FF9EB5&center=true&vCenter=true&width=700&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;Three-time+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, NEC finalist, and solver of more than 600 DSA problems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=900&color=FF9EB5&center=true&vCenter=true&width=720&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;Three-time+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, NEC finalist, and solver of more than 600 DSA problems" />
 </a>
 
 <br/>
@@ -15,9 +38,13 @@
 
 </div>
 
----
+<br/>
 
-## 🍁 About Me
+<!-- ═══════════════ FLOORS: click a header to open / close ═══════════════ -->
+
+<details open>
+<summary><img src="assets/floor-about.svg" width="100%" alt="About me" /></summary>
+<br/>
 
 ```yaml
 name:        Nitin Pandey
@@ -27,17 +54,20 @@ building:    FastRAG, hybrid retrieval, reranking, RAG evaluation
 reach_me:    nitin2005@gmail.com
 ```
 
-> 🍂 *I like building things at the intersection of AI, backend systems and business strategy, and shipping what real users touch.*
+> [!TIP]
+> I like building things at the intersection of **AI, backend systems and business strategy**, and shipping what real users touch.
 
----
+</details>
 
-## 🍁 Tech Stack
+<details open>
+<summary><img src="assets/floor-tech.svg" width="100%" alt="Tech stack" /></summary>
+<br/>
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js,ts&theme=dark" alt="C, C++, Python, Java, JavaScript, and TypeScript" /><br/>
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,django,nextjs&theme=dark" alt="FastAPI, Node.js, Express, Django, and Next.js" /><br/>
-<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis&theme=dark" alt="PostgreSQL, MongoDB, MySQL, and Redis" /><br/>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis&theme=dark" alt="MongoDB, PostgreSQL, MySQL, and Redis" /><br/>
 <img src="https://skillicons.dev/icons?i=qdrant,docker,aws,kafka,githubactions,git&theme=dark" alt="Qdrant, Docker, AWS, Kafka, GitHub Actions, and Git" />
 
 </div>
@@ -46,17 +76,28 @@ reach_me:    nitin2005@gmail.com
 <summary><b>🤖 AI / LLM toolkit (click to expand)</b></summary>
 <br/>
 
-`RAG` · `LlamaIndex` · `BM25` · `Vector search (Qdrant)` · `Reciprocal rank fusion` · `Reranking` · `CRAG` · `Langfuse`
+<div align="center">
+
+![RAG](https://img.shields.io/badge/RAG-0D0820?style=flat-square&logoColor=FF9EB5)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0D0820?style=flat-square&logoColor=FF9EB5)
+![BM25](https://img.shields.io/badge/BM25-0D0820?style=flat-square&logoColor=FF9EB5)
+![Qdrant](https://img.shields.io/badge/Vector%20search%20(Qdrant)-0D0820?style=flat-square&logoColor=FF9EB5)
+![RRF](https://img.shields.io/badge/Reciprocal%20rank%20fusion-0D0820?style=flat-square&logoColor=FF9EB5)
+![Reranking](https://img.shields.io/badge/Reranking-0D0820?style=flat-square&logoColor=FF9EB5)
+![CRAG](https://img.shields.io/badge/CRAG-0D0820?style=flat-square&logoColor=FF9EB5)
+![Langfuse](https://img.shields.io/badge/Langfuse-0D0820?style=flat-square&logoColor=FF9EB5)
+
+</div>
 
 </details>
 
----
+</details>
 
-## 🏯 Featured Projects
+<details open>
+<summary><img src="assets/floor-projects.svg" width="100%" alt="Featured projects" /></summary>
+<br/>
 
-<table>
-<tr>
-<td width="100%" valign="top">
+<div align="center">
 
 ### 🔎 [FastRAG](https://github.com/Nitin192005/FastRag)
 Voice-enabled, multilingual, source-grounded RAG service.
@@ -70,18 +111,41 @@ Voice-enabled, multilingual, source-grounded RAG service.
 ![Python](https://img.shields.io/badge/Python-0D0820?style=flat-square&logo=python&logoColor=FF9EB5)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0D0820?style=flat-square&logo=fastapi&logoColor=FF9EB5)
 ![Next.js](https://img.shields.io/badge/Next.js-0D0820?style=flat-square&logo=nextdotjs&logoColor=FF9EB5)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0D0820?style=flat-square&logoColor=FF9EB5)
 ![Qdrant](https://img.shields.io/badge/Qdrant-0D0820?style=flat-square&logoColor=FF9EB5)
 ![Redis](https://img.shields.io/badge/Redis-0D0820?style=flat-square&logo=redis&logoColor=FF9EB5)
 ![Docker](https://img.shields.io/badge/Docker-0D0820?style=flat-square&logo=docker&logoColor=FF9EB5)
 
-</td>
-</tr>
-</table>
+<details>
+<summary><b>🧠 How a FastRAG query flows (click to expand)</b></summary>
+<br/>
 
----
+```mermaid
+flowchart LR
+    Q([🎙️ Voice / text query]) --> G[Guardrails]
+    G --> C{Semantic cache}
+    C -- hit --> A
+    C -- miss --> D[Dense search<br/>Qdrant]
+    C -- miss --> B[BM25]
+    D --> R[RRF fusion]
+    B --> R
+    R --> RR[Reranker]
+    RR --> CR[CRAG check]
+    CR --> N{Enough evidence?}
+    N -- no --> X([No-answer gate])
+    N -- yes --> L[LLM answer]
+    L --> V[Citation validation]
+    V --> A([✅ Answer with sources])
+```
 
-## 🏮 Experience
+<sub>Simplified view of the retrieval pipeline.</sub>
+
+</details>
+
+</details>
+
+<details open>
+<summary><img src="assets/floor-experience.svg" width="100%" alt="Experience" /></summary>
+<br/>
 
 <details>
 <summary><b>🛠️ Backend Developer Intern · Amalthea Consultancy</b> &nbsp;<i>(Jan – Mar 2025)</i></summary>
@@ -105,9 +169,11 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 </details>
 
----
+</details>
 
-## 🍁 Achievements
+<details>
+<summary><img src="assets/floor-achievements.svg" width="100%" alt="Achievements" /></summary>
+<br/>
 
 <div align="center">
 
@@ -127,25 +193,94 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 </details>
 
----
+</details>
 
-## 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake-dark.svg" />
-  <img width="100%" src="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake.svg" alt="Animated snake following Nitin Pandey's GitHub contribution grid" />
-</picture>
-
----
+<details>
+<summary><img src="assets/floor-stats.svg" width="100%" alt="Contribution activity" /></summary>
+<br/>
 
 <div align="center">
 
-### 🍁 Let's build something together
+<h3>🐍 Contribution Snake</h3>
 
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Email-nitin2005%40gmail.com-FF9EB5?style=for-the-badge&logo=gmail&logoColor=F6E9E2&labelColor=0D0820" alt="Email Nitin at nitin2005@gmail.com" /></a>
-
-<i>⭐ If you like what you see, drop a star on a repo!</i>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake.svg" alt="Animated snake following Nitin Pandey's GitHub contribution grid" />
+</picture>
 
 </div>
 
-<img width="100%" src="assets/momiji-banner.svg" alt="Momiji Castle at dusk framed by falling autumn maple leaves" />
+</details>
+
+<details>
+<summary><img src="assets/floor-journey.svg" width="100%" alt="Developer journey" /></summary>
+<br/>
+
+```mermaid
+mindmap
+  root((Nitin Pandey))
+    🚀 Experience
+      Amalthea - Backend Developer
+      Paradigm360 - Business Analyst
+    💻 Tech
+      Languages
+        C / C++
+        Python
+        Java
+        JavaScript
+        TypeScript
+      Frameworks
+        Django
+        FastAPI
+        Node.js
+        Express
+        Next.js
+      Databases
+        PostgreSQL
+        MongoDB
+        MySQL
+        Redis
+        Qdrant
+      DevOps
+        Docker
+        Kafka
+        GitHub Actions
+    🤖 AI
+      RAG
+      Hybrid Retrieval
+      Reranking and CRAG
+      Evaluation
+    🔗 Projects
+      FastRAG
+    📈 Skills
+      Product Thinking
+      Data Analysis
+      Public Speaking
+      Leadership
+      Agile SDLC
+    🏆 Achievements
+      NEC 2025 Finalist
+      3x Hackathon Winner
+      600+ DSA Problems
+    🎓 Academics
+      B.Tech CSE @ IIITDM Jabalpur
+```
+
+</details>
+
+<br/>
+
+<div align="center">
+
+<h2>📬 Let's build something together</h2>
+
+<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Email-nitin2005%40gmail.com-FF9EB5?style=for-the-badge&logo=gmail&logoColor=F6E9E2&labelColor=0D0820" alt="Email Nitin at nitin2005@gmail.com"/></a>
+
+<i>⭐ If you like what you see, drop a star on a repo!</i>
+
+<br/><br/>
+
+<img src="assets/footer.svg" width="100%" alt="Thanks for stopping by" />
+
+</div>
