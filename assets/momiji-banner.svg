@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="Momiji Castle banner: Nitin Pandey, Backend, AI, Product">
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0d0820"/><stop offset=".55" stop-color="#27113a"/><stop offset="1" stop-color="#d6264f"/></linearGradient>
+<linearGradient id="pond" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a1a45"/><stop offset="1" stop-color="#0d0820"/></linearGradient>
+<radialGradient id="glow"><stop offset="0" stop-color="#ffe9ef" stop-opacity=".55"/><stop offset="1" stop-color="#ffe9ef" stop-opacity="0"/></radialGradient>
+<path id="leaf" d="M0,-8 L2,-3 L7,-5 L4,0 L8,3 L2,3 L0,10 L-2,3 L-8,3 L-4,0 L-7,-5 L-2,-3 Z"/>
+<g id="castle">
+<polygon points="-125,0 125,0 105,-40 -105,-40" fill="#2a1a3d"/>
+<rect x="-70" y="-80" width="140" height="40" fill="#f6e9e2"/>
+<path d="M-102,-74 Q-70,-76 -52,-100 L52,-100 Q70,-76 102,-74 Q62,-82 50,-82 L-50,-82 Q-62,-82 -102,-74Z" fill="#1a1030"/>
+<rect x="-48" y="-124" width="96" height="26" fill="#f6e9e2"/>
+<path d="M-74,-118 Q-48,-120 -36,-142 L36,-142 Q48,-120 74,-118 Q42,-126 34,-126 L-34,-126 Q-48,-126 -74,-118Z" fill="#1a1030"/>
+<rect x="-28" y="-162" width="56" height="20" fill="#f6e9e2"/>
+<path d="M-52,-158 Q-28,-160 -18,-180 L18,-180 Q28,-160 52,-158 Q24,-165 20,-165 L-20,-165 Q-28,-165 -52,-158Z" fill="#1a1030"/>
+<rect x="-2" y="-192" width="4" height="12" fill="#1a1030"/>
+<g fill="#27113a"><rect x="-50" y="-66" width="10" height="14"/><rect x="-5" y="-66" width="10" height="14"/><rect x="40" y="-66" width="10" height="14"/><rect x="-8" y="-114" width="16" height="12"/><rect x="-5" y="-154" width="10" height="8"/></g>
+</g>
+</defs>
+<style>
+.l{animation-name:fall;animation-timing-function:linear;animation-iteration-count:infinite}
+@keyframes fall{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:1}50%{transform:translate(calc(var(--dx)*.4),170px) rotate(calc(var(--r)*.5))}92%{opacity:1}100%{transform:translate(var(--dx),350px) rotate(var(--r));opacity:0}}
+.rip{animation:rip 4s ease-in-out infinite}
+@keyframes rip{0%,100%{opacity:.15;transform:scaleX(.85)}50%{opacity:.5;transform:scaleX(1.05)}}
+.moon{animation:pulse 6s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.7}50%{opacity:1}}
+@media (prefers-reduced-motion:reduce){.l,.rip,.moon{animation:none}}
+</style>
+<rect width="1200" height="320" fill="url(#sky)"/>
+<g fill="#f6e9e2" opacity=".8"><circle cx="150" cy="40" r="1.2"/><circle cx="420" cy="30" r="1"/><circle cx="640" cy="55" r="1.3"/><circle cx="760" cy="25" r="1"/><circle cx="300" cy="80" r="1"/><circle cx="560" cy="20" r="1.2"/></g>
+<circle class="moon" cx="1010" cy="70" r="70" fill="url(#glow)"/><circle cx="1010" cy="70" r="26" fill="#fbeee8"/>
+<path d="M0,236 Q150,205 300,228 T620,222 T900,232 T1200,222 L1200,236 Z" fill="#150b28"/>
+<use href="#castle" transform="translate(880,236) scale(.95)"/>
+<rect y="236" width="1200" height="84" fill="url(#pond)"/>
+<use href="#castle" transform="translate(880,236) scale(.95,-.95)" opacity=".22"/>
+<g transform="translate(1090,262)" fill="#c8372d"><rect x="-20" y="-52" width="5" height="52"/><rect x="15" y="-52" width="5" height="52"/><rect x="-18" y="-40" width="36" height="4"/><path d="M-30,-58 Q0,-48 30,-58 L26,-52 Q0,-44 -26,-52Z"/></g>
+<g stroke="#ff9eb5" stroke-width="1" fill="none"><ellipse class="rip" cx="1090" cy="266" rx="34" ry="3" style="transform-box:fill-box;transform-origin:center"/><ellipse class="rip" cx="880" cy="290" rx="90" ry="4" style="transform-box:fill-box;transform-origin:center;animation-delay:1.2s"/><ellipse class="rip" cx="600" cy="300" rx="60" ry="3" style="transform-box:fill-box;transform-origin:center;animation-delay:2.4s"/></g>
+<text x="60" y="150" font-family="'Hiragino Mincho ProN','Yu Mincho',Georgia,'Times New Roman',serif" font-size="62" font-weight="700" letter-spacing="4" fill="#f6e9e2">Nitin Pandey</text>
+<text x="64" y="190" font-family="system-ui,-apple-system,'Segoe UI',sans-serif" font-size="18" letter-spacing="6" fill="#ff9eb5">BACKEND  ·  AI  ·  PRODUCT</text>
+<rect x="64" y="208" width="46" height="3" fill="#c8372d"/>
+<g transform="translate(683,-20) scale(1.27)"><g class="l" style="--dx:-52px;--r:-487deg;animation-duration:9.4s;animation-delay:-0.6s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(138,-20) scale(0.99)"><g class="l" style="--dx:39px;--r:-346deg;animation-duration:8.3s;animation-delay:-1.1s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(889,-20) scale(0.86)"><g class="l" style="--dx:-75px;--r:-595deg;animation-duration:12.0s;animation-delay:-1.6s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(832,-20) scale(1.3)"><g class="l" style="--dx:-78px;--r:514deg;animation-duration:12.9s;animation-delay:-0.6s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(1127,-20) scale(1.18)"><g class="l" style="--dx:-60px;--r:-597deg;animation-duration:10.4s;animation-delay:-7.3s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(404,-20) scale(1.1)"><g class="l" style="--dx:5px;--r:-554deg;animation-duration:7.6s;animation-delay:-9.3s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(895,-20) scale(0.95)"><g class="l" style="--dx:-10px;--r:-706deg;animation-duration:9.8s;animation-delay:-12.0s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(519,-20) scale(1.31)"><g class="l" style="--dx:-70px;--r:447deg;animation-duration:10.4s;animation-delay:-6.8s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(169,-20) scale(0.94)"><g class="l" style="--dx:-60px;--r:515deg;animation-duration:10.1s;animation-delay:-2.1s"><use href="#leaf" fill="#d6264f"/></g></g>
+<g transform="translate(178,-20) scale(0.92)"><g class="l" style="--dx:52px;--r:604deg;animation-duration:10.4s;animation-delay:-11.4s"><use href="#leaf" fill="#e8603c"/></g></g>
+<g transform="translate(954,-20) scale(1.03)"><g class="l" style="--dx:-73px;--r:-331deg;animation-duration:12.0s;animation-delay:-12.3s"><use href="#leaf" fill="#c8372d"/></g></g>
+<g transform="translate(932,-20) scale(0.94)"><g class="l" style="--dx:-18px;--r:481deg;animation-duration:11.3s;animation-delay:-11.5s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(259,-20) scale(0.79)"><g class="l" style="--dx:36px;--r:-503deg;animation-duration:7.4s;animation-delay:-10.0s"><use href="#leaf" fill="#e8603c"/></g></g>
+<g transform="translate(1036,-20) scale(0.89)"><g class="l" style="--dx:-70px;--r:-719deg;animation-duration:8.0s;animation-delay:-5.2s"><use href="#leaf" fill="#e8603c"/></g></g>
+<g transform="translate(1146,-20) scale(1.18)"><g class="l" style="--dx:-19px;--r:418deg;animation-duration:11.2s;animation-delay:-12.8s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(189,-20) scale(0.71)"><g class="l" style="--dx:-45px;--r:-434deg;animation-duration:7.9s;animation-delay:-8.6s"><use href="#leaf" fill="#c8372d"/></g></g>
+<g transform="translate(28,-20) scale(1.1)"><g class="l" style="--dx:-53px;--r:-653deg;animation-duration:9.5s;animation-delay:-4.8s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(130,-20) scale(1.31)"><g class="l" style="--dx:26px;--r:503deg;animation-duration:12.4s;animation-delay:-10.1s"><use href="#leaf" fill="#e8603c"/></g></g>
+<g transform="translate(827,-20) scale(0.83)"><g class="l" style="--dx:-64px;--r:-525deg;animation-duration:9.9s;animation-delay:-5.2s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(245,-20) scale(1.1)"><g class="l" style="--dx:-3px;--r:-486deg;animation-duration:10.6s;animation-delay:-1.3s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(72,-20) scale(0.8)"><g class="l" style="--dx:-72px;--r:477deg;animation-duration:12.2s;animation-delay:-8.0s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(765,-20) scale(1.4)"><g class="l" style="--dx:31px;--r:545deg;animation-duration:7.7s;animation-delay:-11.0s"><use href="#leaf" fill="#e8603c"/></g></g>
+<g transform="translate(658,-20) scale(1.22)"><g class="l" style="--dx:-69px;--r:654deg;animation-duration:7.9s;animation-delay:-9.7s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+<g transform="translate(1077,-20) scale(0.95)"><g class="l" style="--dx:-85px;--r:-688deg;animation-duration:8.2s;animation-delay:-12.4s"><use href="#leaf" fill="#f08a9f"/></g></g>
+<g transform="translate(630,-20) scale(0.88)"><g class="l" style="--dx:74px;--r:385deg;animation-duration:12.2s;animation-delay:-9.1s"><use href="#leaf" fill="#c8372d"/></g></g>
+<g transform="translate(476,-20) scale(1.15)"><g class="l" style="--dx:46px;--r:-712deg;animation-duration:10.2s;animation-delay:-6.5s"><use href="#leaf" fill="#ff9eb5"/></g></g>
+
+</svg>
