@@ -1,5 +1,5 @@
 <!-- ═══════════════ HEADER ═══════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=230&section=header&text=Nitin%20Pandey&fontSize=62&fontAlignY=36&animation=fadeIn&desc=Backend%20%C2%B7%20AI%20%C2%B7%20Product&descAlignY=58&descSize=20&fontColor=ffffff" alt="Animated gradient header displaying Nitin Pandey's name" />
+<img width="100%" src="assets/profile-autumn-palace.gif" alt="Animated autumn scene with a Japanese palace, drifting red maple leaves, and Nitin Pandey's name" />
 
 <div align="center">
 
@@ -8,10 +8,6 @@
 </a>
 
 <br/>
-
-![Profile views](https://komarev.com/ghpvc/?username=Nitin192005&label=Profile%20Views&color=7aa2f7&style=for-the-badge)
-![GitHub followers](https://img.shields.io/github/followers/Nitin192005?style=for-the-badge&logo=github&color=bb9af7&labelColor=1a1b26)
-![GitHub stars](https://img.shields.io/github/stars/Nitin192005?style=for-the-badge&logo=starship&color=e0af68&labelColor=1a1b26)
 
 <a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Nitin's LinkedIn profile" /></a>
 <a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitin" /></a>
