@@ -1,23 +1,23 @@
-<!-- ═══════════════ HEADER ═══════════════ -->
+<!-- AUTUMN PALACE THEME -->
 <img width="100%" src="assets/profile-autumn-palace.gif" alt="Animated autumn scene with a Japanese palace, drifting red maple leaves, and Nitin Pandey's name" />
 
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;3x+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, and DSA problem solver" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=F29AA3&center=true&vCenter=true&width=700&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;3x+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, and DSA problem solver" />
 </a>
 
 <br/>
 
-<a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Nitin's LinkedIn profile" /></a>
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitin" /></a>
-<a href="https://github.com/Nitin192005"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nitin's GitHub profile" /></a>
+<a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-F29AA3?style=for-the-badge&logo=linkedin&logoColor=FBE9DF&labelColor=302437" alt="Connect with Nitin on LinkedIn" /></a>
+<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-F29AA3?style=for-the-badge&logo=gmail&logoColor=FBE9DF&labelColor=302437" alt="Email Nitin" /></a>
+<a href="https://github.com/Nitin192005"><img src="https://img.shields.io/badge/GitHub-Explore%20projects-F29AA3?style=for-the-badge&logo=github&logoColor=FBE9DF&labelColor=302437" alt="Explore Nitin's GitHub projects" /></a>
 
 </div>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-## ✨ About Me
+## 🍂 About Me
 
 ```yaml
 name:        Nitin Pandey
@@ -27,11 +27,11 @@ building:    FastRAG, hybrid retrieval, reranking, RAG evaluation
 reach_me:    nitin2005@gmail.com
 ```
 
-> 💡 *I like building things at the intersection of AI, backend systems and business strategy, and shipping what real users touch.*
+> 🍁 *I like building things at the intersection of AI, backend systems and business strategy, and shipping what real users touch.*
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-## 🧰 Tech Stack
+## 🍁 Tech Stack
 
 <div align="center">
 
@@ -50,9 +50,9 @@ reach_me:    nitin2005@gmail.com
 
 </details>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-## 🚀 Featured Projects
+## 🏯 Featured Projects
 
 <table>
 <tr>
@@ -67,21 +67,21 @@ Voice-enabled, multilingual, source-grounded RAG service.
 - Golden-dataset evaluation with retrieval and faithfulness metrics
 - Langfuse tracing and Docker-based deployment
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat-square&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-7AA2F7?style=flat-square)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Python](https://img.shields.io/badge/Python-302437?style=flat-square&logo=python&logoColor=F29AA3)
+![FastAPI](https://img.shields.io/badge/FastAPI-302437?style=flat-square&logo=fastapi&logoColor=F29AA3)
+![Next.js](https://img.shields.io/badge/Next.js-302437?style=flat-square&logo=nextdotjs&logoColor=F29AA3)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-302437?style=flat-square&logoColor=F29AA3)
+![Qdrant](https://img.shields.io/badge/Qdrant-302437?style=flat-square&logoColor=F29AA3)
+![Redis](https://img.shields.io/badge/Redis-302437?style=flat-square&logo=redis&logoColor=F29AA3)
+![Docker](https://img.shields.io/badge/Docker-302437?style=flat-square&logo=docker&logoColor=F29AA3)
 
 </td>
 </tr>
 </table>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-## 💼 Experience
+## 🏮 Experience
 
 <details>
 <summary><b>🛠️ Backend Developer Intern · Amalthea Consultancy</b> &nbsp;<i>(Jan – Mar 2025)</i></summary>
@@ -105,9 +105,9 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 </details>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-## 🏆 Achievements
+## 🍁 Achievements
 
 <div align="center">
 
@@ -127,9 +127,9 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 </details>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
-### 🐍 Contribution Snake
+## 🍂 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake-dark.svg" />
@@ -137,16 +137,16 @@ Voice-enabled, multilingual, source-grounded RAG service.
   <img width="100%" src="https://raw.githubusercontent.com/Nitin192005/Nitin192005/output/github-snake.svg" alt="Animated snake following Nitin Pandey's GitHub contribution grid" />
 </picture>
 
----
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
 
 <div align="center">
 
-### 📬 Let's build something together
+### 🏮 Let's build something together
 
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-nitin2005%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b26" alt="Email Nitin at nitin2005@gmail.com" /></a>
+<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Email-nitin2005%40gmail.com-F29AA3?style=for-the-badge&logo=gmail&logoColor=FBE9DF&labelColor=302437" alt="Email Nitin at nitin2005@gmail.com" /></a>
 
 <i>⭐ If you like what you see, drop a star on a repo!</i>
 
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=120&section=footer" alt="Decorative gradient wave at the bottom of the profile" />
+<img width="100%" src="assets/autumn-divider.svg" alt="" />
