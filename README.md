@@ -4,6 +4,8 @@
   <img src="assets/hero.webp" width="100%" alt="Momiji Castle: an animated autumn dusk scene with maple leaves drifting past a samurai castle. Click to enter the live version." />
 </a>
 
+<img src="assets/welcome.svg" width="100%" alt="Welcome, traveller. This profile is a castle: press Enter the castle, tap a seal to open a room, sweep the cursor through the leaves." />
+
 <a href="https://nitin192005.github.io/Nitin192005/">
   <img src="assets/enter.svg" width="440" alt="Enter the castle: the live, interactive version of this profile" />
 </a>
@@ -12,15 +14,7 @@
 
 <a href="https://nitin192005.github.io/Nitin192005/#about"><img src="assets/seal-about.svg" width="112" alt="About" /></a><a href="https://nitin192005.github.io/Nitin192005/#projects"><img src="assets/seal-projects.svg" width="112" alt="Projects" /></a><a href="https://nitin192005.github.io/Nitin192005/#experience"><img src="assets/seal-experience.svg" width="112" alt="Experience" /></a><a href="https://nitin192005.github.io/Nitin192005/#achievements"><img src="assets/seal-awards.svg" width="112" alt="Awards" /></a><a href="https://nitin192005.github.io/Nitin192005/#contact"><img src="assets/seal-contact.svg" width="112" alt="Contact" /></a>
 
-<sub>🍁 Click a seal to open that room in the live castle &nbsp;·&nbsp; or send a gust right here 👇</sub>
-
-<details>
-<summary><img src="assets/gust-button.svg" width="420" alt="Send a gust of wind. Click to toggle." /></summary>
-<br/>
-<img src="assets/gust.webp" width="100%" alt="The same castle scene during a gust of wind, with hundreds of maple leaves swirling past." />
-<br/>
-<sub><i>Click the button again to let the wind settle.</i></sub>
-</details>
+<sub>🍁 Click a seal to open that room in the live castle</sub>
 
 <br/>
 
@@ -67,7 +61,7 @@ reach_me:    nitin2005@gmail.com
 
 <img src="https://skillicons.dev/icons?i=c,cpp,py,java,js,ts&theme=dark" alt="C, C++, Python, Java, JavaScript, and TypeScript" /><br/>
 <img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,django,nextjs&theme=dark" alt="FastAPI, Node.js, Express, Django, and Next.js" /><br/>
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis&theme=dark" alt="MongoDB, PostgreSQL, MySQL, and Redis" /><br/>
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis&theme=dark" alt="PostgreSQL, MongoDB, MySQL, and Redis" /><br/>
 <img src="https://skillicons.dev/icons?i=qdrant,docker,aws,kafka,githubactions,git&theme=dark" alt="Qdrant, Docker, AWS, Kafka, GitHub Actions, and Git" />
 
 </div>
@@ -81,8 +75,8 @@ reach_me:    nitin2005@gmail.com
 ![RAG](https://img.shields.io/badge/RAG-0D0820?style=flat-square&logoColor=FF9EB5)
 ![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0D0820?style=flat-square&logoColor=FF9EB5)
 ![BM25](https://img.shields.io/badge/BM25-0D0820?style=flat-square&logoColor=FF9EB5)
-![Qdrant](https://img.shields.io/badge/Vector%20search%20(Qdrant)-0D0820?style=flat-square&logoColor=FF9EB5)
-![RRF](https://img.shields.io/badge/Reciprocal%20rank%20fusion-0D0820?style=flat-square&logoColor=FF9EB5)
+![Vector search](https://img.shields.io/badge/Vector%20search%20(Qdrant)-0D0820?style=flat-square&logoColor=FF9EB5)
+![Reciprocal rank fusion](https://img.shields.io/badge/Reciprocal%20rank%20fusion-0D0820?style=flat-square&logoColor=FF9EB5)
 ![Reranking](https://img.shields.io/badge/Reranking-0D0820?style=flat-square&logoColor=FF9EB5)
 ![CRAG](https://img.shields.io/badge/CRAG-0D0820?style=flat-square&logoColor=FF9EB5)
 ![Langfuse](https://img.shields.io/badge/Langfuse-0D0820?style=flat-square&logoColor=FF9EB5)
