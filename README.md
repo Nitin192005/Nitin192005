@@ -62,7 +62,7 @@ reach_me:    nitin2005@gmail.com
 <tr>
 <td width="100%" valign="top">
 
-### 🔎 [FastRAG](https://github.com/Nitin192005/FastRag) · [Live demo](https://fastrag.vercel.app/)
+### 🔎 [FastRAG](https://github.com/Nitin192005/FastRag)
 Voice-enabled, multilingual, source-grounded RAG service.
 
 - Voice-enabled multilingual question answering with dense and BM25 retrieval
@@ -132,21 +132,6 @@ Voice-enabled, multilingual, source-grounded RAG service.
 </details>
 
 ---
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Nitin192005&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=1a1b26" alt="GitHub statistics for Nitin Pandey" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitin192005&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&bg_color=1a1b26" alt="Most-used programming languages on Nitin Pandey's public repositories" />
-
-<br/>
-
-</div>
-
-### 📈 Contribution Activity
-
-<img src="https://streak-stats.demolab.com?user=Nitin192005&theme=tokyonight&hide_border=true&background=1a1b26" alt="GitHub contribution streak for Nitin Pandey" />
 
 ### 🐍 Contribution Snake
 
