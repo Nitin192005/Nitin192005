@@ -11,8 +11,16 @@
 
 
 <a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Nitin's LinkedIn profile" /></a>
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitin" /></a>
+<a href="mailto:nitin2005p@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitin" /></a>
 <a href="https://github.com/Nitin192005"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nitin's GitHub profile" /></a>
+
+</div>
+
+<div align="center">
+
+<a href="https://nitin192005.github.io/Nitin192005/">
+  <img src="assets/enter.svg" width="720" alt="Enter the castle: open Nitin's interactive autumn portfolio" />
+</a>
 
 </div>
 
@@ -25,7 +33,7 @@ name:        Nitin Pandey
 education:   B.Tech CSE @ IIITDM Jabalpur (2023–2027), CGPA 8.0
 focus:       Backend engineering · AI systems
 building:    FastRAG, hybrid retrieval, reranking, RAG evaluation
-reach_me:    nitin2005@gmail.com
+reach_me:    nitin2005p@gmail.com
 ```
 
 > 💡 *I like building things at the intersection of AI, backend systems and business strategy, and shipping what real users touch.*
@@ -144,22 +152,10 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 ### 📬 Let's build something together
 
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-nitin2005%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b26" alt="Email Nitin at nitin2005@gmail.com" /></a>
+<a href="mailto:nitin2005p@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-nitin2005p%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b26" alt="Email Nitin at nitin2005p@gmail.com" /></a>
 
 <i>⭐ If you like what you see, drop a star on a repo!</i>
 
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=120&section=footer" alt="Decorative gradient wave at the bottom of the profile" />
-
----
-
-## 🏯 Explore the Castle
-
-<div align="center">
-
-<a href="https://nitin192005.github.io/Nitin192005/">
-  <img src="assets/enter.svg" width="440" alt="Enter the interactive castle portfolio" />
-</a>
-
-</div>
