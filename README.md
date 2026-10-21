@@ -18,9 +18,7 @@
 
 <div align="center">
 
-<a href="https://nitin192005.github.io/Nitin192005/">
-  <img src="assets/enter.svg" width="720" alt="Enter the castle: open Nitin's interactive autumn portfolio" />
-</a>
+<img src="assets/enter.svg" width="720" alt="Castle-themed profile banner" />
 
 </div>
 
