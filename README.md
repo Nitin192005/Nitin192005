@@ -1,43 +1,23 @@
-<a id="top"></a>
+<!-- ═══════════════ HEADER ═══════════════ -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=230&section=header&text=Nitin%20Pandey&fontSize=62&fontAlignY=36&animation=fadeIn&desc=Backend%20%C2%B7%20AI%20%C2%B7%20Product&descAlignY=58&descSize=20&fontColor=ffffff" alt="Animated gradient header displaying Nitin Pandey's name" />
 
 <div align="center">
 
-<img src="assets/welcome.svg" width="100%" alt="Welcome, traveller. This profile is a castle: press Enter the castle, tap a seal to open a room, sweep the cursor through the leaves." />
-
-<a href="https://nitin192005.github.io/Nitin192005/">
-  <img src="assets/enter.svg" width="440" alt="Enter the castle: the live, interactive version of this profile" />
-</a>
-
-<br/>
-
-<a href="https://nitin192005.github.io/Nitin192005/#about"><img src="assets/seal-about.svg" width="112" alt="About" /></a><a href="https://nitin192005.github.io/Nitin192005/#projects"><img src="assets/seal-projects.svg" width="112" alt="Projects" /></a><a href="https://nitin192005.github.io/Nitin192005/#experience"><img src="assets/seal-experience.svg" width="112" alt="Experience" /></a><a href="https://nitin192005.github.io/Nitin192005/#achievements"><img src="assets/seal-awards.svg" width="112" alt="Awards" /></a><a href="https://nitin192005.github.io/Nitin192005/#contact"><img src="assets/seal-contact.svg" width="112" alt="Contact" /></a>
-
-<br/>
-
-<sub><b>On this page:</b> <a href="#about">About</a> · <a href="#tech">Tech</a> · <a href="#projects">Projects</a> · <a href="#experience">Experience</a> · <a href="#achievements">Achievements</a> · <a href="#activity">Activity</a> · <a href="#contact">Contact</a></sub><br/>
-<sub>Tip: enter the castle to explore its rooms, or scroll down for the profile.</sub>
-
-<br/>
-
-<img src="assets/nameplate.svg" width="100%" alt="Nitin Pandey · Backend · AI · Product" />
-
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&duration=3000&pause=900&color=FF9EB5&center=true&vCenter=true&width=720&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;Three-time+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;Hybrid+retrieval%2C+reranking%2C+and+RAG+evaluation" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, NEC finalist, and builder of hybrid retrieval systems" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=900&color=7AA2F7&center=true&vCenter=true&width=700&height=50&lines=Backend+Developer+%F0%9F%9B%A0%EF%B8%8F;Building+RAG+systems+with+retrieval+and+evaluation+%F0%9F%A4%96;3x+Hackathon+Winner+%F0%9F%8F%86;NEC+2025+Finalist+%40+IIT+Bombay+%F0%9F%8E%AF;600%2B+DSA+problems+solved+%F0%9F%A7%A9" alt="Rotating introduction: backend developer, RAG builder, hackathon winner, and DSA problem solver" />
 </a>
 
 <br/>
 
-<a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-FF9EB5?style=for-the-badge&logo=linkedin&logoColor=F6E9E2&labelColor=0D0820" alt="Connect with Nitin on LinkedIn" /></a>
-<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20hello-FF9EB5?style=for-the-badge&logo=gmail&logoColor=F6E9E2&labelColor=0D0820" alt="Email Nitin" /></a>
-<a href="https://github.com/Nitin192005"><img src="https://img.shields.io/badge/GitHub-Explore%20projects-FF9EB5?style=for-the-badge&logo=github&logoColor=F6E9E2&labelColor=0D0820" alt="Explore Nitin's GitHub projects" /></a>
+
+<a href="https://linkedin.com/in/nitin-pandey-dev"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Nitin's LinkedIn profile" /></a>
+<a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Nitin" /></a>
+<a href="https://github.com/Nitin192005"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Nitin's GitHub profile" /></a>
 
 </div>
 
-<br/>
-
 ---
 
-<a id="about"></a>
 ## ✨ About Me
 
 ```yaml
@@ -52,7 +32,6 @@ reach_me:    nitin2005@gmail.com
 
 ---
 
-<a id="tech"></a>
 ## 🧰 Tech Stack
 
 <div align="center">
@@ -74,7 +53,6 @@ reach_me:    nitin2005@gmail.com
 
 ---
 
-<a id="projects"></a>
 ## 🚀 Featured Projects
 
 <table>
@@ -104,7 +82,6 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 ---
 
-<a id="experience"></a>
 ## 💼 Experience
 
 <details>
@@ -131,7 +108,6 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 ---
 
-<a id="achievements"></a>
 ## 🏆 Achievements
 
 <div align="center">
@@ -154,7 +130,6 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 ---
 
-<a id="activity"></a>
 ### 🐍 Contribution Snake
 
 <picture>
@@ -167,7 +142,6 @@ Voice-enabled, multilingual, source-grounded RAG service.
 
 <div align="center">
 
-<a id="contact"></a>
 ### 📬 Let's build something together
 
 <a href="mailto:nitin2005@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-nitin2005%40gmail.com-7aa2f7?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1b26" alt="Email Nitin at nitin2005@gmail.com" /></a>
@@ -177,3 +151,15 @@ Voice-enabled, multilingual, source-grounded RAG service.
 </div>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,18,20,24&height=120&section=footer" alt="Decorative gradient wave at the bottom of the profile" />
+
+---
+
+## 🏯 Explore the Castle
+
+<div align="center">
+
+<a href="https://nitin192005.github.io/Nitin192005/">
+  <img src="assets/enter.svg" width="440" alt="Enter the interactive castle portfolio" />
+</a>
+
+</div>
